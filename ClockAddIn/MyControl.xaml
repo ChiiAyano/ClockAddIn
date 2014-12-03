@@ -8,7 +8,7 @@
              mc:Ignorable="d"
              Name="MyToolWindow">
     <Grid>
-        <Viewbox Margin="10">
+        <Viewbox Margin="5">
             <Grid>
                 <Grid.RowDefinitions>
                     <RowDefinition Height="*"/>
@@ -31,7 +31,7 @@
                         </Line.RenderTransform>
                     </Line>
                 </Canvas>
-                <TextBlock Grid.Row="1" x:Name="nowTimeBlock" Text="12:34" HorizontalAlignment="Center" FontSize="16">
+                <TextBlock Grid.Row="1" x:Name="nowTimeBlock" Text="12:34" TextAlignment="Center">
                     <TextBlock.Foreground>
                         <SolidColorBrush Color="{DynamicResource {x:Static SystemColors.ControlColorKey}}"/>
                     </TextBlock.Foreground>
